@@ -1,0 +1,16 @@
+GitHub Profile:
+https://github.com/psc-jr
+
+Sequencia de comando:
+
+I am using macOS the steps that I had to do was:
+
+1- "New Terminal at Folder" abrindo o terminal na pasta "HealthTrack" onde se encontra meu projeto.
+
+2- Primeiramente checando o status da pasta com o comando git status
+
+3- Adicionado os arquivos ao repositório git com o comando git add .
+
+4- Commit os arquivos usando git commit -m "Mensagem" 
+
+5- 
