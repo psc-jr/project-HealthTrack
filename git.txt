@@ -1,16 +1,39 @@
 GitHub Profile:
+
 https://github.com/psc-jr
 
 Sequencia de comando:
 
-I am using macOS the steps that I had to do was:
+I am using macOS the steps that I had to do was the following:
 
 1- "New Terminal at Folder" abrindo o terminal na pasta "HealthTrack" onde se encontra meu projeto.
+	
+	1.1- Interagindo com o git usando o comando - git inti 
 
-2- Primeiramente checando o status da pasta com o comando git status
+2- Checando o status da pasta com o comando git status
 
 3- Adicionado os arquivos ao repositório git com o comando git add .
 
 4- Commit os arquivos usando git commit -m "Mensagem" 
 
-5- 
+5- Conferindo o status novamente - git status
+
+6- Criar um repositório remoto publico no meu perfil GitHub
+
+7- Voltando no meu terminal com os seguintes comandos para sync: 
+
+//link com o repositorio remoto
+git remote add origin https://github.com/psc-jr/project-HealthTrack
+
+//nomeando a branch main 
+git branch -M main
+
+//push directory to repository remote
+git push -u origin main
+
+
+
+
+
+
+
