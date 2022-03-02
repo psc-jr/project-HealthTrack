@@ -2,7 +2,7 @@ GitHub Profile:
 
 https://github.com/psc-jr
 
-Sequencia de comando:
+Sequencia de comandos:
 
 I am using macOS the steps that I had to do was the following:
 
