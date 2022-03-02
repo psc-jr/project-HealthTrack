@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 300;
+}
+
+label {
+  font-size: small;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #8f1fff;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(176, 104, 249)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(176, 104, 249)
+  );
+}
+.card-header {
+  background-color: #8f1fff;
+}
+
+#btnpurple {
+  background-color: #b068f9;
+  border: #e5e5e5;
+  color: white;
+}
+
+#btnpurple:hover {
+  background-color: #8f1fff;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
